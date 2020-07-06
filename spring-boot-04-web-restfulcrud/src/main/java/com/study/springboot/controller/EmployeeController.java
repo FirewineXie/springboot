@@ -15,8 +15,8 @@ import java.util.Collection;
  * Created by IntelliJ IDEA.
  *
  * @version : 1.0
- * @auther : Firewine
- * @mail ： 1451661318@qq.com
+ * @author : Firewine
+ * @mail ：
  * @Program Name: <br>
  * @Create : 2019-05-27-23:26
  * @Description :  <br/>

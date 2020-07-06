@@ -8,9 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * Created by IntelliJ IDEA.
  *
  * @version : 1.0
- * @auther : Firewine
- * @mail ： 1451661318@qq.com
- * @Program Name: <br>
+ * @author : Firewine
+ * @ProgramName: <br>
  * @Create : 2019-05-21-12:01
  * @Description :  <br/>
  */
