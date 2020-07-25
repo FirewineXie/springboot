@@ -1,7 +1,7 @@
-package com.atguigu.springboot.controller;
+package com.study.springboot.controller;
 
-import com.atguigu.springboot.entity.User;
-import com.atguigu.springboot.repository.UserRepository;
+import com.study.springboot.entity.User;
+import com.study.springboot.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

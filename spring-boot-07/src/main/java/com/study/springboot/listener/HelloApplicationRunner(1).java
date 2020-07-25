@@ -1,4 +1,4 @@
-package com.atguigu.springboot.listener;
+package com.study.springboot.listener;
 
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

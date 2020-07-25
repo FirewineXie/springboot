@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.atguigu.starter</groupId>
-    <artifactId>atguigu-spring-boot-starter</artifactId>
+    <groupId>com.study.starter</groupId>
+    <artifactId>study-spring-boot-starter</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <!--启动器-->
@@ -13,8 +13,8 @@
 
         <!--引入自动配置模块-->
         <dependency>
-            <groupId>com.atguigu.starter</groupId>
-            <artifactId>atguigu-spring-boot-starter-autoconfigurer</artifactId>
+            <groupId>com.study.starter</groupId>
+            <artifactId>study-spring-boot-starter-autoconfigurer</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

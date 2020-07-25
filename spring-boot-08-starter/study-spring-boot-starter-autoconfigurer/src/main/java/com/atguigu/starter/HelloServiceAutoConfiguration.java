@@ -1,4 +1,4 @@
-package com.atguigu.starter;
+package com.study.starter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;

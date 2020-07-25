@@ -14,7 +14,6 @@
 
 # Package Files #
 out
-.idea/
 *.iml
 !lib/algs4.jar
 *.jar
@@ -29,3 +28,4 @@ out
 hs_err_pid*
 
 lib/
+*/target

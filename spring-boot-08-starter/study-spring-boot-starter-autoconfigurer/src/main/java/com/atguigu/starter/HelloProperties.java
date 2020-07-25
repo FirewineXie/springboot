@@ -1,8 +1,8 @@
-package com.atguigu.starter;
+package com.study.starter;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "atguigu.hello")
+@ConfigurationProperties(prefix = "study.hello")
 public class HelloProperties {
 
     private String prefix;

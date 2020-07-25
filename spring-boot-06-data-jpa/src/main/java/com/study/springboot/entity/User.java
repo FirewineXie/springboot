@@ -1,4 +1,4 @@
-package com.atguigu.springboot.entity;
+package com.study.springboot.entity;
 
 
 import javax.persistence.*;

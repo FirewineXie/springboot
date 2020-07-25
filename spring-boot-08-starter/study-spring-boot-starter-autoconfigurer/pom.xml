@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.atguigu.starter</groupId>
-	<artifactId>atguigu-spring-boot-starter-autoconfigurer</artifactId>
+	<groupId>com.study.starter</groupId>
+	<artifactId>study-spring-boot-starter-autoconfigurer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>atguigu-spring-boot-starter-autoconfigurer</name>
+	<name>study-spring-boot-starter-autoconfigurer</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

@@ -1,4 +1,4 @@
-package com.atguigu.starter;
+package com.study.starter;
 
 public class HelloService {
 
@@ -12,7 +12,7 @@ public class HelloService {
         this.helloProperties = helloProperties;
     }
 
-    public String sayHellAtguigu(String name){
+    public String sayHellstudy(String name){
         return helloProperties.getPrefix()+"-" +name + helloProperties.getSuffix();
     }
 }

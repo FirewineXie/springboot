@@ -1,4 +1,4 @@
-package com.atguigu.springboot;
+package com.study.springboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

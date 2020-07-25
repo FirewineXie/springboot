@@ -606,7 +606,7 @@ Spring Boot里面没有Spring的配置文件，我们自己编写的配置文件
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="helloService" class="com.atguigu.springboot.service.HelloService"></bean>
+    <bean id="helloService" class="com.study.springboot.service.HelloService"></bean>
 </beans>
 ```
 
@@ -1258,7 +1258,7 @@ SpringBoot默认帮我们配置好了日志；
 SpringBoot修改日志的默认配置
 
 ```properties
-logging.level.com.atguigu=trace
+logging.level.com.study=trace
 
 
 #logging.path=
@@ -1786,8 +1786,8 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
        // super.addViewControllers(registry);
-        //浏览器发送 /atguigu 请求来到 success
-        registry.addViewController("/atguigu").setViewName("success");
+        //浏览器发送 /study 请求来到 success
+        registry.addViewController("/study").setViewName("success");
     }
 }
 ```
@@ -1840,8 +1840,8 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
        // super.addViewControllers(registry);
-        //浏览器发送 /atguigu 请求来到 success
-        registry.addViewController("/atguigu").setViewName("success");
+        //浏览器发送 /study 请求来到 success
+        registry.addViewController("/study").setViewName("success");
     }
 }
 ```
@@ -1909,8 +1909,8 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
        // super.addViewControllers(registry);
-        //浏览器发送 /atguigu 请求来到 success
-        registry.addViewController("/atguigu").setViewName("success");
+        //浏览器发送 /study 请求来到 success
+        registry.addViewController("/study").setViewName("success");
     }
 
     //所有的WebMvcConfigurerAdapter组件都会一起起作用
@@ -2301,7 +2301,7 @@ insert的公共片段在div标签中
     </div>
     <div class="form-group">
         <label>Email</label>
-        <input type="email" class="form-control" placeholder="zhangsan@atguigu.com">
+        <input type="email" class="form-control" placeholder="zhangsan@study.com">
     </div>
     <div class="form-group">
         <label>Gender</label><br/>
@@ -2363,7 +2363,7 @@ insert的公共片段在div标签中
     </div>
     <div class="form-group">
         <label>Email</label>
-        <input name="email" type="email" class="form-control" placeholder="zhangsan@atguigu.com" th:value="${emp!=null}?${emp.email}">
+        <input name="email" type="email" class="form-control" placeholder="zhangsan@study.com" th:value="${emp!=null}?${emp.email}">
     </div>
     <div class="form-group">
         <label>Gender</label><br/>
@@ -2644,7 +2644,7 @@ public class MyErrorAttributes extends DefaultErrorAttributes {
     @Override
     public Map<String, Object> getErrorAttributes(RequestAttributes requestAttributes, boolean includeStackTrace) {
         Map<String, Object> map = super.getErrorAttributes(requestAttributes, includeStackTrace);
-        map.put("company","atguigu");
+        map.put("company","study");
         return map;
     }
 }
@@ -3313,7 +3313,7 @@ docker容器(Container)：镜像启动后的实例称为一个容器；容器是
 
 ​	1）、VMWare、VirtualBox（安装）；
 
-​	2）、导入虚拟机文件centos7-atguigu.ova；
+​	2）、导入虚拟机文件centos7-study.ova；
 
 ​	3）、双击启动linux虚拟机;使用  root/ 123456登陆
 
@@ -3679,7 +3679,7 @@ public class MyBatisConfig {
 
 ```java
 使用MapperScan批量扫描所有的Mapper接口；
-@MapperScan(value = "com.atguigu.springboot.mapper")
+@MapperScan(value = "com.study.springboot.mapper")
 @SpringBootApplication
 public class SpringBoot06DataMybatisApplication {
 
@@ -3920,10 +3920,10 @@ public class HelloSpringApplicationRunListener implements SpringApplicationRunLi
 
 ```properties
 org.springframework.context.ApplicationContextInitializer=\
-com.atguigu.springboot.listener.HelloApplicationContextInitializer
+com.study.springboot.listener.HelloApplicationContextInitializer
 
 org.springframework.boot.SpringApplicationRunListener=\
-com.atguigu.springboot.listener.HelloSpringApplicationRunListener
+com.study.springboot.listener.HelloSpringApplicationRunListener
 ```
 
 
@@ -4007,8 +4007,8 @@ mybatis-spring-boot-starter；自定义启动器名-spring-boot-starter
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.atguigu.starter</groupId>
-    <artifactId>atguigu-spring-boot-starter</artifactId>
+    <groupId>com.study.starter</groupId>
+    <artifactId>study-spring-boot-starter</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <!--启动器-->
@@ -4016,8 +4016,8 @@ mybatis-spring-boot-starter；自定义启动器名-spring-boot-starter
 
         <!--引入自动配置模块-->
         <dependency>
-            <groupId>com.atguigu.starter</groupId>
-            <artifactId>atguigu-spring-boot-starter-autoconfigurer</artifactId>
+            <groupId>com.study.starter</groupId>
+            <artifactId>study-spring-boot-starter-autoconfigurer</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
@@ -4033,12 +4033,12 @@ mybatis-spring-boot-starter；自定义启动器名-spring-boot-starter
    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
 
-   <groupId>com.atguigu.starter</groupId>
-   <artifactId>atguigu-spring-boot-starter-autoconfigurer</artifactId>
+   <groupId>com.study.starter</groupId>
+   <artifactId>study-spring-boot-starter-autoconfigurer</artifactId>
    <version>0.0.1-SNAPSHOT</version>
    <packaging>jar</packaging>
 
-   <name>atguigu-spring-boot-starter-autoconfigurer</name>
+   <name>study-spring-boot-starter-autoconfigurer</name>
    <description>Demo project for Spring Boot</description>
 
    <parent>
@@ -4073,11 +4073,11 @@ mybatis-spring-boot-starter；自定义启动器名-spring-boot-starter
 
 
 ```java
-package com.atguigu.starter;
+package com.study.starter;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "atguigu.hello")
+@ConfigurationProperties(prefix = "study.hello")
 public class HelloProperties {
 
     private String prefix;
@@ -4103,7 +4103,7 @@ public class HelloProperties {
 ```
 
 ```java
-package com.atguigu.starter;
+package com.study.starter;
 
 public class HelloService {
 
@@ -4117,7 +4117,7 @@ public class HelloService {
         this.helloProperties = helloProperties;
     }
 
-    public String sayHellAtguigu(String name){
+    public String sayHellstudy(String name){
         return helloProperties.getPrefix()+"-" +name + helloProperties.getSuffix();
     }
 }
@@ -4125,7 +4125,7 @@ public class HelloService {
 ```
 
 ```java
-package com.atguigu.starter;
+package com.study.starter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;

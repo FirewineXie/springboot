@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-08-starter-test" />
+        <module name="springboot-16-deploy" />
+        <module name="spring-boot-03-logging" />
+        <module name="spring-boot-01-helloworld" />
+        <module name="springboot-14-dubbo-provider" />
+        <module name="springboot-15-springcloud-eureka-server" />
+        <module name="springboot-15-springcloud-consumer-user" />
+        <module name="demo" />
+        <module name="spring-boot-07" />
+        <module name="spring-boot-02-config" />
+        <module name="spring-boot-06-data-mybatis" />
+        <module name="springboot-17-actuator" />
+        <module name="springboot-11-elastic" />
+        <module name="spring-boot-01-helloworld-quick" />
+        <module name="spring-boot-04-web-restfulcrud" />
+        <module name="springboot-10-amqp" />
+        <module name="springboot-14-dubbo-consumer" />
+        <module name="springboot-09-cache" />
+        <module name="spring-boot-06-data-jdbc" />
+        <module name="springboot-13-secuity" />
+        <module name="springboot-15-springcloud-provider-ticket" />
+        <module name="springboot-12-task" />
+        <module name="spring-boot-06-data-jpa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.11" />
+      <module name="spring-boot-01-helloworld" target="1.11" />
+      <module name="spring-boot-01-helloworld-quick" target="1.11" />
+      <module name="spring-boot-02-config" target="1.11" />
+      <module name="spring-boot-03-logging" target="1.11" />
+      <module name="spring-boot-04-web-restfulcrud" target="1.11" />
+      <module name="spring-boot-06-data-jdbc" target="1.11" />
+      <module name="spring-boot-06-data-jpa" target="1.11" />
+      <module name="spring-boot-06-data-mybatis" target="1.11" />
+      <module name="spring-boot-07" target="1.11" />
+      <module name="spring-boot-08-starter-test" target="1.11" />
+      <module name="springboot-09-cache" target="1.11" />
+      <module name="springboot-10-amqp" target="8" />
+      <module name="springboot-11-elastic" target="1.8" />
+      <module name="springboot-12-task" target="11" />
+      <module name="springboot-13-secuity" target="11" />
+      <module name="springboot-14-dubbo" target="11" />
+      <module name="springboot-14-dubbo-consumer" target="11" />
+      <module name="springboot-14-dubbo-provider" target="11" />
+      <module name="springboot-15-springcloud-consumer-user" target="11" />
+      <module name="springboot-15-springcloud-eureka-server" target="1.11" />
+      <module name="springboot-15-springcloud-provider-ticket" target="11" />
+      <module name="springboot-16-deploy" target="1.11" />
+      <module name="springboot-17-actuator" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="spring-boot-01-helloworld" options="-parameters" />
+      <module name="spring-boot-01-helloworld-quick" options="-parameters" />
+      <module name="spring-boot-02-config" options="-parameters" />
+      <module name="spring-boot-03-logging" options="-parameters" />
+      <module name="spring-boot-04-web-restfulcrud" options="-parameters" />
+      <module name="spring-boot-06-data-jdbc" options="-parameters" />
+      <module name="spring-boot-06-data-mybatis" options="-parameters" />
+      <module name="springboot-09-cache" options="-parameters" />
+      <module name="springboot-15-springcloud-eureka-server" options="-parameters" />
+    </option>
+  </component>
+</project>
